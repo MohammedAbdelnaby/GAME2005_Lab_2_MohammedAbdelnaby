@@ -104,7 +104,7 @@ void PlayScene::GUI_Function()
 
 	ImGui::SliderInt("X", &StartingX, 50, 300, "%.3f");
 
-	ImGui::SliderInt("Y", &StartingX, 50, 300, "%.3f");
+	ImGui::SliderInt("Y", &StartingY, 50, 300, "%.3f");
 
 	ImGui::SliderInt("Angle", &LaunchElevationAngle, 0, -360, "%.3f");
 
